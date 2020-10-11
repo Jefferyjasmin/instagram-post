@@ -1,35 +1,54 @@
  
+body{
+    background-color: black;
+}
+
 .container{
-    background-color:white;
-    border: 1px solid black;
-    width: 400px;
-    height:600px;
+     background-color: rgba(0, 0, 0, 0.171);
+    
+    width: 305px;
+    height:393px;
     margin: auto;
     margin-top: 100px;
+     
 }
 
 .header{
-
+     background-color: black;
     display: flex;
     justify-content: space-between;
     border : 1px solid black;
 }
 
 .left-itmes{
+     background-color: black;
     float: left;
     margin: 0;
 }
 
 #angel{
-    width: 400px ;
-     
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  display: block;
 }
+
 
  
 .bottom-row{
+     background-color: black;
     margin: 0;
     display: flex;
     justify-content: space-between;
-    border : 3px solid black;
+    border : 2px solid black;
 }
- 
+.textdiv{
+    background-color: black;
+    color: white;
+    front-size: 2px;
+}
+.text{
+    background-color: black;
+  word-break:break-all;
+  color: white;
+}
